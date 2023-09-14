@@ -1,0 +1,107 @@
+body{
+  background-color: rgba(192, 192, 192, 0.47);
+  text-decoration: none;
+}
+
+p{
+  font-family: Lora, Arial;
+  }
+
+.my-name{
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.email{ 
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.college, .education{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.degree{
+  font-size: 15px;
+  font-weight: 400;
+
+}
+
+.container2 div{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.my-pic{
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.topics{
+  background-color: #efdcd3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 22px;
+  position:fixed;
+  right:12px;
+  left: 12px;
+  height: 40px;
+
+}
+
+.project1{
+  text-decoration: none;
+  color: black;
+}
+
+.baltimore{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.thumbnail-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.introduction{
+  margin-left:20px;
+  border-radius: 4px;
+  border-style: none;
+  background-color: #efdcd3;
+  padding:20px 20px 20px 20px;
+}
+
+.contact-thumbnail{
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.right-section{
+  position: relative;
+}
+
+.contact-links{
+  position: absolute;
+  bottom: -50px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.topics div{
+  cursor: pointer;
+}

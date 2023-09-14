@@ -1,0 +1,18 @@
+.form{
+  margin:20px auto;
+  max-width:500px;
+  overflow-x:hidden;
+  height: 3000px;
+}
+.fieldset{
+  display: flex;
+}
+
+.input#description{
+  flex-grow:50;
+  margin: 0 20px;
+}
+.input#location{
+  flex-grow:50;
+  margin: 0 20px;
+}
