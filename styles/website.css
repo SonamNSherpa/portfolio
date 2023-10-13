@@ -2,7 +2,7 @@ body{
   color: black;
   background-color: #FBFCF8;
   text-decoration: none;
-  height: 3000px;
+  height: 2000px;
 }
 
 p{
@@ -36,23 +36,17 @@ p{
 }
 
 .my-pic{
-  height: 160px;
-  width: 160px;
-  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  object-fit:cover;
   margin-right: 15px;
 }
 
 .container{
   background-color: #FAFAFA;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   position: absolute;
   left: 200px;
-  top: 300px;
-  right: 500px;
-  
-
+  top: 180px;
 }
 
 .topics{
@@ -62,10 +56,11 @@ p{
   align-items: center;
   font-size: 22px;
   position: fixed;
+  top:0;
   right:12px;
   left: 12px;
   height: 40px;
-  z-index: 2;
+  z-index: 100;
 
 }
 
@@ -104,7 +99,7 @@ p{
 
 .contact-links{
   position: absolute;
-  bottom:-200px;
+  bottom:-100px;
   right: 10px;
   cursor: pointer;
 }
@@ -115,4 +110,28 @@ p{
 
 .about-me{
   color: black;
+}
+
+.education{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech-icon{
+  object-fit: contain;
+  width:50px;
+  height:50px;
+}
+
+.right-section{
+  position: absolute;
+  padding-top: 800px;
+}
+
+.left-section{
+  position: relative;
+  padding-left: 300px;
+  padding-top: 80px;
+  right:50px;
+  z-index: 50;
 }
